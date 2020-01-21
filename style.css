@@ -12,7 +12,7 @@
 }
 
 body {
-	background-image: url(http://www.dreamtemplate.com/dreamcodes/bg_images/color/c4.jpg);
+	background-image: url("./Assets/Images/background-image-wood.jpeg");
 }
 
 .container {
