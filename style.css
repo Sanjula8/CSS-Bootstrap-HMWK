@@ -1,47 +1,58 @@
 .nav-link,
 .navbar-brand {
-	color: white !important;
+	color: black !important;
 }
 
 .navbar {
-	background-color: rgba(34, 33, 33, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar a:hover {
-	background-color: lightgray;
+	background-color: rgb(250, 162, 162);
 }
 
 body {
-	background-image: url("./Assets/Images/background-image-wood.jpeg");
+	background: rgb(127, 144, 217);
+	background: linear-gradient(
+		90deg,
+		rgba(127, 144, 217, 1) 27%,
+		rgba(236, 153, 161, 1) 88%
+	);
 }
 
 .container {
-	color: white;
-	background-color: rgba(34, 33, 33, 0.5);
+	color: black;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
-h1 {
+.aboutme {
 	text-align: center;
-	border-bottom: solid 1px white;
+	border-bottom: solid 1px black;
 	padding-bottom: 2px;
 }
 
 img {
 	float: left;
 	padding: 15px;
+	height: 300px;
+	width: 300px;
 }
 
 .contact-button {
-	background-color: gray;
+	background-color: rgb(250, 162, 162, 0.5);
 	border: none;
 }
 
 .contact-button:hover {
-	background-color: lightgray;
+	background-color: lightblue;
+}
+
+.portfolio {
+	text-align: center;
 }
 
 .banner {
-	background-color: rgba(34, 33, 33, 0.5);
+	background-color: rgb(250, 162, 162, 0.5);
 	border: none;
 	width: 100%;
 	margin: 0;
@@ -50,10 +61,10 @@ img {
 .card {
 	width: 300px;
 	height: 400px;
-	background-color: rgba(247, 247, 247, 0.5);
+	background-color: transparent;
+	border: none;
 }
 
-/* .banner {
-	margin-top: -200px;
-	width: 263px;
-} */
+.banner:hover {
+	background-color: lightblue;
+}
